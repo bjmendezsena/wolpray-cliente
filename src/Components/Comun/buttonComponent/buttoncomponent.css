@@ -1,0 +1,85 @@
+.logbtn{
+    border:  none;
+    padding: 15px 30px;
+    color: #034881;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    overflow: hidden;
+    transition:  0.2s;
+    background: none;
+    border-radius: 20px;
+    font-weight: 900;
+}
+
+.logbtn:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #3498db, #8e44ad);
+    box-shadow: 0 0 10px #3498db, 0 0 40px #2b416b, 0 0 10px #8e44ad;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.logbtn span{
+    position: absolute;
+    display: block;
+}
+
+.logbtn span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(120deg, #3498db18, #8e44ad);
+}
+
+
+.logbtn:hover span:nth-child(1){
+    left: 100%;
+     transition: 1s;
+}
+
+
+.logbtn span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(120deg, #3498db18, #8e44ad);
+}
+
+.logbtn:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+}
+
+
+.logbtn span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(120deg, #3498db18, #8e44ad);
+}
+
+.logbtn:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+}
+
+
+.logbtn span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(120deg, #3498db18, #8e44ad);
+}
+
+.logbtn:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+  
+}
+
